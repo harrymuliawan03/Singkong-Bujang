@@ -234,13 +234,13 @@ section {
 }
 
 .home .content {
-    max-width: 70rem;
-    line-height: 130px;
     text-align: left;
 }
 
 .home .content h3 {
     font-size: 8rem;
+    max-width: 70rem;
+    line-height: 130px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -332,23 +332,23 @@ section {
     color: var(--black);
 } */
 
-.products {
+.best {
     margin-top: 50px;
 }
 
-.products .box-container {
+.best .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
-.products .box-container .box {
+.best .box-container .box {
     text-align: center;
     border: var(--border);
     padding: 2rem;
 }
 
-.products .box-container .box .icons a {
+.best .box-container .box .icons a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -358,38 +358,38 @@ section {
     margin: .3rem;
 }
 
-.products .box-container .box .icons a:hover {
+.best .box-container .box .icons a:hover {
     background: var(--main-color);
 }
 
-.products .box-container .box .image {
+.best .box-container .box .image {
     padding: 2.5rem 0;
 }
 
-.products .box-container .box .image img {
+.best .box-container .box .image img {
     height: 25rem;
 }
 
-.products .box-container .box .content h3 {
+.best .box-container .box .content h3 {
     color: #808080;
     font-size: 2.5rem;
 }
 
-.products .box-container .box .content .stars {
+.best .box-container .box .content .stars {
     padding: 1.5rem;
 }
 
-.products .box-container .box .content .stars i {
+.best .box-container .box .content .stars i {
     font-size: 1.7rem;
     color: var(--main-color);
 }
 
-.products .box-container .box .content .price {
+.best .box-container .box .content .price {
     color: #fff;
     font-size: 2.5rem;
 }
 
-.products .box-container .box .content .price span {
+.best .box-container .box .content .price span {
     text-decoration: line-through;
     font-weight: lighter;
     font-size: 1.5rem;
@@ -548,11 +548,11 @@ section {
     text-align: center;
 }
 
-.footer .share {
+.footer .socmed {
     padding: 1rem 0;
 }
 
-.footer .share a {
+.footer .socmed a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -563,7 +563,7 @@ section {
     border-radius: 50%;
 }
 
-.footer .share a:hover {
+.footer .socmed a:hover {
     background-color: var(--main-color);
 }
 
